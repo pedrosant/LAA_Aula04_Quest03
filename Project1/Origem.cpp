@@ -12,6 +12,9 @@ void tostring(int v[10], int n);
 int main() {
 	int n;
 	int v [10]= {22,99,32,88,34,33,11,97,55,66};
+	
+	tostring(v, 10);
+	cout << "\n";
 // Item A complexidade n2 usando bubbleSort
 	bubbleSort(v, 10);
 	cout << "Digite o n-esimo elemnto que deseja" <<::endl;
